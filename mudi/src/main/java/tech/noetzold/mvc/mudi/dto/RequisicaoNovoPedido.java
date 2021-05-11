@@ -1,11 +1,19 @@
 package tech.noetzold.mvc.mudi.dto;
 
+import javax.validation.constraints.NotBlank;
+
 import tech.noetzold.mvc.mudi.model.Pedido;
+import tech.noetzold.mvc.mudi.model.StatusPedido;
 
 public class RequisicaoNovoPedido {
 
+	@NotBlank //NotBlank.requisicaoNovoPedido.nomeProduto=não pode estar em branco
 	private String nomeProduto;
+	
+	@NotBlank
 	private String urlProduto;
+	
+	@NotBlank
 	private String urlImagem;
 	private String descricao;
 	
@@ -39,6 +47,7 @@ public class RequisicaoNovoPedido {
 		pedido.setNomeProduto(nomeProduto);
 		pedido.setUrlImagem(urlImagem);
 		pedido.setUrlProduto(urlProduto);
+		pedido.setStatus(StatusPedido.AGUARDANDO);
 		return pedido;
 	}
 	
