@@ -3,6 +3,7 @@ package tech.noetzold.mvc.mudi.controller;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,7 +12,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import tech.noetzold.mvc.mudi.dto.RequisicaoNovoPedido;
 import tech.noetzold.mvc.mudi.model.Pedido;
+import tech.noetzold.mvc.mudi.model.User;
 import tech.noetzold.mvc.mudi.repository.PedidoRepository;
+import tech.noetzold.mvc.mudi.repository.UserRepository;
 
 @Controller
 @RequestMapping("pedido")
@@ -19,8 +22,11 @@ public class PedidoController {
 	
 	@Autowired
 	private PedidoRepository pedidoRepository;
+	
+	@Autowired
+	private UserRepository userRepository;
 
-	@GetMapping("formulario") 
+	@GetMapping("formulario")
 	public String formulario(RequisicaoNovoPedido requisicao) {
 		return "pedido/formulario";
 	}
@@ -31,10 +37,12 @@ public class PedidoController {
 			return "pedido/formulario";
 		}
 		
-		Pedido pedido = requisicao.toPedido();
-		pedidoRepository.save(pedido);
+		String username = SecurityContextHolder.getContext().getAuthentication().getName();
 		
+		User usuario = userRepository.findByUsername(username);
+		Pedido pedido = requisicao.toPedido();
+		pedido.setUser(usuario);
+		pedidoRepository.save(pedido);
 		return "redirect:/home";
 	}
-	
 }
