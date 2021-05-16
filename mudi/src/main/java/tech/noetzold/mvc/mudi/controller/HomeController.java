@@ -29,6 +29,7 @@ public class HomeController {
 		
 		List<Pedido> pedidos = pedidoRepository.findByStatus(StatusPedido.ENTREGUE, paginacao);
 		model.addAttribute("pedidos", pedidos);
+		
 		return "home";
 	}
 	
