@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
+
 public class InterceptadorDeAcessos extends HandlerInterceptorAdapter{
 
 	public static List<Acesso> acessos = new ArrayList<Acesso>();
