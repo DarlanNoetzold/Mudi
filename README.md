@@ -11,9 +11,13 @@
 * O projeto é uma loja de controle de pedidos, que são cadastrados e estruturados com status.
 * Esses pedidos tem uma ideia de que nós temos dois tipos de usuários na aplicação: O primeiro é o usuário que vai gerar ofertas para os pedidos que forem feitos e o outro usuário é o que vai cadastrar os pedidos.
 
+
+
 * *Pedidos ligados ao usuário e com 3 Status enum.* 
 <img src="https://github.com/DarlanNoetzold/Mudi/blob/main/mudi01.jpg" />
-
+* *Pedidos ligados ao usuário e com 3 Status enum.* 
 <img src="https://github.com/DarlanNoetzold/Mudi/blob/main/mudi02.jpg" />
+* *Pedidos ligados ao usuário e com 3 Status enum.* 
 <img src="https://github.com/DarlanNoetzold/Mudi/blob/main/mudi03.jpg" />
+* *Pedidos ligados ao usuário e com 3 Status enum.* 
 <img src="https://github.com/DarlanNoetzold/Mudi/blob/main/mudi04.jpg" />
