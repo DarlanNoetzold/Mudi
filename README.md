@@ -15,9 +15,9 @@
 
 * *Pedidos ligados ao usuário e com 3 Status enum.* 
 <img src="https://github.com/DarlanNoetzold/Mudi/blob/main/mudi01.jpg" />
-* *Pedidos ligados ao usuário e com 3 Status enum.* 
+* *Cadastro de pedidos.* 
 <img src="https://github.com/DarlanNoetzold/Mudi/blob/main/mudi02.jpg" />
-* *Pedidos ligados ao usuário e com 3 Status enum.* 
+* *Controle de formulários.* 
 <img src="https://github.com/DarlanNoetzold/Mudi/blob/main/mudi03.jpg" />
 * *Pedidos ligados ao usuário e com 3 Status enum.* 
 <img src="https://github.com/DarlanNoetzold/Mudi/blob/main/mudi04.jpg" />
