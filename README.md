@@ -12,7 +12,15 @@
 * Esses pedidos tem uma ideia de que nós temos dois tipos de usuários na aplicação: O primeiro é o usuário que vai gerar ofertas para os pedidos que forem feitos e o outro usuário é o que vai cadastrar os pedidos.
 
 
+
+### Pedidos ligados ao usuário e com 3 Status enum.
 <img src="https://github.com/DarlanNoetzold/Mudi/blob/main/mudi01.jpg" />
+
+### Cadastro de pedidos. 
 <img src="https://github.com/DarlanNoetzold/Mudi/blob/main/mudi02.jpg" />
+
+### Controle de formulários.
 <img src="https://github.com/DarlanNoetzold/Mudi/blob/main/mudi03.jpg" />
+
+### Login de Usuário.
 <img src="https://github.com/DarlanNoetzold/Mudi/blob/main/mudi04.jpg" />
