@@ -24,3 +24,10 @@
 
 ### Login de Usuário.
 <img src="https://github.com/DarlanNoetzold/Mudi/blob/main/mudi04.jpg" />
+
+### Diagrama
+* Link:
+
+* Imagem:
+![image](https://user-images.githubusercontent.com/41628589/120103533-6c9bcd00-c126-11eb-839b-6ea51b55a9d4.png)
+
