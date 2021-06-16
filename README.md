@@ -18,7 +18,7 @@
 * Imagem do diagrama das entidades:
 ![image](https://user-images.githubusercontent.com/41628589/120195493-3ed18980-c1f5-11eb-88ee-e9418726deaa.png)
 
-
+---
 
 ### Pedidos ligados ao usuário e com 3 Status enum.
 <img src="https://github.com/DarlanNoetzold/Mudi/blob/main/mudi01.jpg" />
