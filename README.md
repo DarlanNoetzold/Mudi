@@ -5,7 +5,7 @@
 * Os dados são tratados com Spring Data e armazenado em um Banco de Dados MariaDB.
 * O Spring MVC foi responsável pela parte Web.
 * A estilização foi feita com Thymeleaf e Bootstrap.
-* O sistema de login e segurança foi feito com Spring Security
+* O sistema de login e segurança foi feito com Spring Security.
 
 ## Projeto
 * O projeto é uma loja de controle de pedidos, que são cadastrados e estruturados com status.
