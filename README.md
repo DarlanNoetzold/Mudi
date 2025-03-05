@@ -1,38 +1,37 @@
 # Mudi
- 
-## Desenvolvimento
-* Na estruturação foi usado a linguagem Java (1.8) com Spring Boot.
-* Os dados são tratados com Spring Data e armazenado em um Banco de Dados MariaDB.
-* O Spring MVC foi responsável pela parte Web.
-* A estilização foi feita com Thymeleaf e Bootstrap.
-* O sistema de login e segurança foi feito com Spring Security.
 
-## Projeto
-* O projeto é uma loja de controle de pedidos, que são cadastrados e estruturados com status.
-* Esses pedidos tem uma ideia de que nós temos dois tipos de usuários na aplicação: O primeiro é o usuário que vai gerar ofertas para os pedidos que forem feitos e o outro usuário é o que vai cadastrar os pedidos.
+## Development
+* Java (1.8) was used for the structuring with Spring Boot.
+* Data is processed with Spring Data and stored in a MariaDB database.
+* Spring MVC was responsible for the Web part.
+* Styling was done with Thymeleaf and Bootstrap.
+* The login and security system was done with Spring Security.
+
+## Project
+* The project is a store for controlling orders, which are registered and structured with status.
+* These orders have the idea that we have two types of users in the application: The first is the user who will generate offers for the orders that are made and the other user is the one who will register the orders.
 
 ---
 
-## Documentação:
+## Documentation:
 * Link: https://darlannoetzold.github.io/Mudi/
-* Imagem do diagrama das entidades:
+* Entity diagram image:
 ![image](https://user-images.githubusercontent.com/41628589/120195493-3ed18980-c1f5-11eb-88ee-e9418726deaa.png)
 
 ---
 
-### Pedidos ligados ao usuário e com 3 Status enum.
+### Orders linked to the user and with 3 Status enum.
 <img src="https://github.com/DarlanNoetzold/Mudi/blob/main/mudi01.jpg" />
 
-### Cadastro de pedidos. 
+### Order registration.
 <img src="https://github.com/DarlanNoetzold/Mudi/blob/main/mudi02.jpg" />
 
-### Controle de formulários.
+### Form control.
 <img src="https://github.com/DarlanNoetzold/Mudi/blob/main/mudi03.jpg" />
 
-### Login de Usuário.
+### User Login.
 <img src="https://github.com/DarlanNoetzold/Mudi/blob/main/mudi04.jpg" />
 
 ---
 
 ⭐️ From [DarlanNoetzold](https://github.com/DarlanNoetzold)
-
